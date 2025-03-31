@@ -1,0 +1,97 @@
+<!-- HTML is a Tree Like Structure This is basically DOM (Document Object Model) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="HTML Introduction">
+    <meta name="keywords" content="HTML,Elements,Tags">
+    <link rel="stylesheet" href="style.css">  
+    <!-- One need to specify the folder location in // then file_name in case of the file belongs to a particular folder -->
+    <!-- Here we can write the JavaScript code following a script tag just like this also we can link a JS File -->
+    <script>
+        console.log('Hi');
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>My First Site</title>
+</head>
+<body>
+    <!-- Paragraph Tag : Used to create paragraph  -->
+    <p>This is a paragraph</p>
+    <!-- Browser automatically assigns a new line in between two paragraphs -->
+     <!-- We can Use a line Break Tag To separate two lines and this dosen't follow an Closing tag : Empty Tag -->
+    <p>Hello My Name is Abhishek
+        <br>  
+    </p>I am a Software Engineering Enthusiast
+    <pre>This text willbe      diSplayed as It IS</pre>
+    <!-- To Define Heading if the column -->
+     <!-- Heading tags ranges from h1 to h6 -->
+    <h1>This is a h1 heading</h1>
+    <h2>This is a h2 heading</h2>
+    <h3>This is a h3 heading</h3>
+    <h4>This is a h4 heading</h4>
+    <h5>This is a h5 heading</h5>
+    <h6>This is a h6 heading</h6>
+    <!-- Table Tag : To Use Tables in a HTML Document -->
+     <table border="1">
+        <tr> <!-- To Define Rows -->
+            <th>Name</th> <!-- To Define Heading of the column assigned to a row  -->
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Abhishek Banerjee</td> <!-- To Define Table Data assigned to rows and column-->
+            <td>21</td>
+            <td>Kolkata</td>
+        </tr>
+        <tr>
+            <td>Heya Banerjee</td>
+            <td>20</td>
+            <td>Kolkata</td>
+        </tr>
+     </table>
+     <!-- List Tags : 1. Ordered List 2. Unordered List 3. Description List -->
+     <!-- Ordered list can be in an Unordered List or Unorderdered list can be in an Ordered list -->
+     <ol><li>Fruits</li>
+        <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Litchi</li>
+        </ul>
+     </ol>
+     <ul><li>Fruits</li>
+        <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Litchi</li>
+        </ol>
+     </ul>
+     <dl>
+        <dt> HTML </dt>
+        <dd>HyperText Markup Language</dd>
+     </dl>
+     <!-- HTML inline and block Elements 
+     inline : <a>,<strong>,<span>  : Does not add any lines in between two tags
+     block : <p>,<div>,<h1>        : Automatically adds a new line in between two tags
+    -->
+    <p>
+        This is my 
+        <span style="border: 1px solid black;">
+            Span
+        </span>
+        Demo
+    </p>
+    <!-- Formatting tags :
+            1. Physical : Doesn't add any meaning to the text Just used for Styling
+            2. Seantic Tags : Used to add some meaning in the text 
+    -->
+    <i>Italics</i>
+    <br>
+    <p><b><del>This is a deleted </del>Bold Text</b></p> <!-- Used to pen through a text -->
+    <u>This is an Underlined Text</u>
+    <p>2<sup>i</sup> Used for Super Script</p>  
+    <p>O<sub>2</sub> Oxygen</p>
+</body>
+</html>
