@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+
+    <style>
+        .container{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .header{
+            background-color: white;
+            padding: 10px;
+        }
+        .content{
+            margin-top: 10px;
+        }
+        .footer{
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- "Label" is used to define the name of an input and Input is used to take the input of a form -->
+    <!-- An attribute is a part of an element -->
+    <!-- There is an attribute named Method : Defines the HTTP method to use when the form is submitted
+            1. Method can be "Post": To update a resource in a server
+            2. Method can be "get" : Request a data from a specified resource
+    -->
+    <!-- <form action="login">
+        <label for="email">Email : </label>
+        <input type="email" name="email"><br><br>
+        <label for="password">Password : </label>
+        <input type="password" name="password"><br><br>
+        <label for="Gender">Gender : </label>
+        <input type="radio" name="Gender" name="Male">
+        <label for="Male">Male </label>
+        <input type="radio" name="Gender" name="Female">
+        <label for="Female">Female </label> <br> <br>
+        <input type="submit" value="Submit"> <br> <br>
+        <button type="button">Click Me</button> <br> <br>
+        <label for="pets">Pets : </label>
+        <select name="Pets" id="Pets">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+        </select>   <br> <br>
+    </form> -->
+
+    <!-- <form action="Submit" method="get">
+        <label for="fruit">Chose a fruit : </label>
+        <select name="fruits" id="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana" selected>Banana</option>
+            <option value="Guava">Guava</option>
+            <option value="Grapes">Grapes</option>
+            <option value="Mango">Mango</option>
+            <option value="Litchi">Litchi</option>
+        </select>
+    </form> -->
+        
+<!-- Semantics : Describes their purpose and content as well <h1>,<table>
+     Non-semantic : Do not have a specific meaning or purpose <div>,<span>
+        div : Used to group and organize other elements within a web page
+              Generic container, that has no special meaning
+-->
+<!-- Tags V/S Elements : Tags are used to create elements -->
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to My Website</h1>
+        </div>
+        <div class="content">
+            <p>This is the main Content Area</p>
+        </div>
+        <div class="footer">
+            <p>Footer information goes here</p>
+        </div>
+    </div>
+</body>
+</html>
